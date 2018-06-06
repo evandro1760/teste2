@@ -1,0 +1,201 @@
+<!-- Documento HTMLN -> N é a ultima versão -->
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<!-- Titulo na aba do navegador -->
+		<title>Biografia - João da Silva</title>
+		
+		<!-- Caracteres com acentuação -->
+		<meta charset="utf-8">
+		
+		<!-- Favicon da página -->
+		<link rel="icon" href="img/favicon.png">
+
+		<!-- Retirando padrões do navegador -->
+		<link rel="stylesheet" href="css/reset.css">
+
+		<!-- Importando CSS -->
+		<link rel="stylesheet" href="css/site.css">
+		<link rel="stylesheet" href="css/bio.css">
+		
+		<!-- carrega a fonte Crimson Text nas versões normal, itálico e negrito -->
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
+	
+		<!-- carrega a fonte Open Sans Condensed na versão negrito, -->
+		<!-- que é a única necessária para os cabeçalhos            -->
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
+
+<!--
+<h1></h1> -> Titulo maior
+
+<p></p> -> Parágrafo
+
+<em></em> -> Itálico
+
+<strong></strong> -> Negrito
+
+<style></style> -> CSS no HTML
+
+<a></a> -> Link para href
+	- href=""
+	- href="#" -> lugar indeterminado
+
+LINKS:
+	portfolio.html -> http://meusite.com/paginas/portfolio.html
+	/posts/html5-e-css3.html -> http://meusite.com/posts/html5-e-css3.html
+	//facebook.com -> http://facebook.com
+
+<img> -> Imagem
+	- src="" -> Endereço da imagem
+	- alt="" -> Descrição da imagem
+
+<blockquote></blockquote> -> Citação
+
+<cite></cite> -> Autor de Citação
+
+<div></div> -> Região
+
+<nav></nav> -> Região com links de navegação
+
+<main></main> -> conteúdo principal da página
+
+<header></header> -> cabeçalho da página ou de uma região dela
+
+<footer></footer> -> mesma ideia da tag <header> para o rodapé
+
+<aside></aside> -> conteúdo auxiliar ao conteúdo principal, como links relacionados ao conteúdo
+
+<article></article> -> conteúdo que, por si só, já tem um sentido completo, como um post de um blog ou uma notícia
+
+<section></section> -> parte/seção de uma página ou texto
+
+<ul></ul> -> inicia uma lista 
+
+<li></li> -> delimita cada elemento da lista
+
+<time></time>
+	- datetime="2014-07-13"
+
+<figure></figure>
+
+<figcaption></figcaption>
+
+
+Entidades:
+
+&copy -> ©
+&euro -> €
+&yen -> ¥
+&pound -> £
+&reg -> ®
+&hearts -> ♥
+&lt -> <
+&gt -> >
+
+-->
+
+	</head>
+	<body>
+		<main>
+			<h1 class="titulo-principal">Sobre mim</h1>
+			<div class="container">
+
+				<p>Moro em São Paulo mas atendo clientes do mundo todo. Sou 
+					conhecido por fazer produtos de <em>qualidade</em>, 
+					<em>durabilidade</em> e que <em>agregam valor</em> para 
+					meus clientes.</p>
+
+				<p>Trabalho usando a web como plataforma, ou seja, respiro 
+					HTML5, CSS3 e JavaScript (ou melhor: ECMASCript). Crio 
+					sites para todos, seguindo as principais diretivas de 
+					acessibilidade, responsividade e web semântica, sem 
+					descuidar da qualidade de código.</p>
+
+				<h2 class="subtitulo-texto">Como trabalho</h2>
+				
+				<blockquote class="citacao-bio fiat">
+
+					<p>João é o melhor desenvolvedor front-end com quem já 
+						trabalhei. Muito eficiente e muito capaz. Recomendo sem 
+						dúvidas!</p>
+					<cite>José Souza, Fiat</cite>
+				</blockquote>
+
+				<p>Satisfazer meus clientes é prioridade. Para isso, garanto um 
+					processo de desenvolvimento altamente interativo, baseado em 
+					feedback contínuo. <strong>Não trabalho com escopo 
+					fechado</strong>: o cliente é que decide quando o produto está 
+					pronto.</p>
+
+				<p>Também não trabalho com prazos fechados: <strong>qualidade é 
+					importante demais para ser sacrificada</strong>.</p>
+
+				<h2 class="subtitulo-texto">Experiência</h2>
+
+				<blockquote class="citacao-bio petrobras">
+				
+					<p>João domina as tecnologias como ninguém. Eu apresentava um 
+						problema, ele tinha na ponta da língua a solução mais 
+						adequada com as tecnologias mais recentes.</p>
+					<cite>Manoel Santos, Petrobrás</cite>
+				</blockquote>
+
+				<p>Já desenvolvi projetos para grandes empresas como 
+					<a href="http://www.bmw.com">BMW</a>, 
+					<a href="http://www.uol.com.br">UOL</a> e 
+					<a href="http://www.ibm.com.br">IBM</a>. Neles, o foco principal 
+					era entregar uma experiência imersiva e impactante para o usuário 
+					final sem descuidar do desempenho e da acessibilidade da página.</p>
+
+				<p>Também já fui contratado para transformar grandes portais, como 
+					<a href="http://www.terra.com.br">Terra</a> e 
+					<a href="http://www.g1.globo.com">G1</a>, em páginas responsivas. Fui 
+					responsável por renovar o layout, reorganizar o conteúdo e re-escrever 
+					o código de forma mais reaproveitável.</p>
+
+				<h2 class="subtitulo-texto">Comunidade</h2>
+
+				<p>Procuro repassar meu conhecimento para a comunidade. Para isso, já dei 
+					<a href="portfolio.html">diversas palestras</a> e mantenho um 
+					<a href="blog.html">blog</a>.</p>
+			</div>
+		</main>
+		
+		<img src="img/eu.jpg" alt="Foto de João da Silva" class="minha-foto">
+		
+		<aside class="navegacao-site">
+			<h1>João da Silva</h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="bio.html">Sobre mim</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contato.html">Contato</a></li>
+				</ul>
+			</nav>
+			<ul class="icones-redes-sociais">
+				<li>
+					<a class="github" href="https://github.com/joaodasilva">
+						Github
+					</a>
+				</li>
+				<li>
+					<a class="twitter" href="https://twitter.com/joaodasilva">
+						Twitter
+					</a>
+				</li>
+				<li>
+					<a class="linkedin" href="https://br.linkedin.com/pub/joão-da-silva/32/4/508">
+						LinkedIn
+					</a>
+				</li>
+			</ul>
+		</aside>
+
+		<footer class="rodape-pagina">
+			&copy; João da Silva 2014
+		</footer>
+	</body>
+</html>
